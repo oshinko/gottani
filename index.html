@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ブラウザーで使える小さなツール集。パスワードの生成や漏洩チェックなどのツールを公開しています。">
+  <title>gottani — 小さなツール集</title>
+  <style>
+    :root { color-scheme: light dark; font-family: system-ui, -apple-system, sans-serif; }
+    body { max-width: 560px; margin: 8vh auto; padding: 0 20px; line-height: 1.6; }
+    h1 { font-size: 1.5rem; }
+    ul { list-style: none; padding: 0; }
+    li { margin-top: 24px; }
+    a { color: LinkText; text-underline-offset: .2em; }
+    a:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
+    li p { margin: 6px 0 0; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>gottani</h1>
+    <p>ブラウザーで使える小さなツール集。</p>
+    <ul aria-label="ツール一覧">
+      <li>
+        <a href="password-generator.html">パスワード生成</a>
+        <p>長さと文字種を選んで、ランダムなパスワードを生成します。</p>
+      </li>
+      <li>
+        <a href="pwned-password-checker.html">Pwned Passwords Checker</a>
+        <p>パスワードが既知の漏洩データに含まれているか確認します。</p>
+      </li>
+    </ul>
+  </main>
+</body>
+</html>
